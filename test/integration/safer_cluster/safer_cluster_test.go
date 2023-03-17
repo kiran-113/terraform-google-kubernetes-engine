@@ -46,7 +46,7 @@ func TestSaferCluster(t *testing.T) {
 			"privateClusterConfig.enablePrivateEndpoint",
 			"privateClusterConfig.enablePrivateNodes",
 			"addonsConfig.horizontalPodAutoscaling",
-			"addonsConfig.kubernetesDashboard",
+			"addonsConfig.kubernetesDashboard.disabled",
 			"addonsConfig.networkPolicyConfig",
 			"networkPolicy",
 			"networkConfig.datapathProvider",
